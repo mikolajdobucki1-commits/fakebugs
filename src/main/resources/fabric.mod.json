@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cpsmod",
+  "version": "${version}",
+  "name": "CPS Display",
+  "description": "Shows your current clicks-per-second (left and right mouse button) on screen.",
+  "authors": [
+    "you"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.cpsmod.CpsMod"
+    ]
+  },
+  "mixins": [
+    "cpsmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
